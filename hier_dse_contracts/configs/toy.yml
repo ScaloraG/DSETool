@@ -1,0 +1,9 @@
+layers:
+  - name: Physical
+    contract: {A: {lat: [0, 10]}, G: {lat: [0, 10]}}
+  - name: Network
+    contract: {A: {lat: [0, 10]}, G: {lat: [0, 10]}}
+  - name: Application
+    contract: {A: {lat: [0, 10]}, G: {lat: [0, 10]}}
+convergence: {eps: 1e-4, max_iter: 10}
+
